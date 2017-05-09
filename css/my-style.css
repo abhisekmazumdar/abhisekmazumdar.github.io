@@ -1,0 +1,203 @@
+/*
+    Created on : 14 Jan, 2017, 2:02:54 AM
+    Author     : abhisek
+*/
+
+@import url('https://fonts.googleapis.com/css?family=Baloo+Bhaina|Raleway|Press+Start+2P');
+
+body
+{
+  background-image: url("../img/bg-home.jpg");
+  text-align: center;
+}
+.my-font-1
+{
+  font-family: 'Baloo Bhaina', cursive;
+}
+.my-font-2
+{
+  font-family: 'Raleway', sans-serif;
+}
+.my-font-3
+{
+  font-family: 'Press Start 2P', cursive;
+}
+
+.quote
+{
+  color: #fff;
+  line-height: 3em;
+}
+.quote .quote-big-word
+{
+  font-size: 4em;
+}
+.quote .quote-big-word:hover
+{
+  color: #fff000;
+}
+.quote .diff-color
+{
+  color: #999999;
+  font-size: 3em;
+}
+.quote .diff-color:hover
+{
+  color: #ECEFF1;
+}
+.quote .quote-small-word
+{
+  font-size: 2em;
+  color: #999999;
+}
+.quote .quote-small-word:hover
+{
+  color: #ECEFF1;
+}
+
+
+.social-icon
+{
+  padding-top: 5%;
+  padding-bottom: 5%;
+  font-size: 5em;
+}
+.social-icon a
+{
+  color: #757575;
+  text-decoration: none;
+}
+.social-icon i:hover
+{
+  color: #fff000;
+}
+
+.two-box
+{
+  color: #fff;
+  text-align: left;
+}
+.two-box h2
+{
+  font-size: 5em;
+  color: #fff;
+}
+.two-box h2:hover
+{
+  color: #fff000;
+}
+.two-box span
+{
+  font-family: 'Baloo Bhaina', cursive;
+  font-size: 2em;
+  color: #757575;
+}
+.two-box span:hover
+{
+  color: #ECEFF1;
+}
+.two-box .about-me-body
+{
+  font-size: 1.5em;
+}
+.two-box .about-me-body .me-image
+{
+  float: left;
+  width: 50%;
+  margin-right: 5%; /* space between the image and the text */
+}
+
+.two-box .my-skills-body .p1
+{
+  background-color: #f44336;
+}
+.two-box .my-skills-body .p2
+{
+  background-color: #2196F3;
+}
+.two-box .my-skills-body .p3
+{
+  background-color: #4CAF50;
+}
+.two-box .my-skills-body .p4
+{
+  background-color: #FDD835;
+}
+.two-box .my-skills-body .p5
+{
+  background-color: #9C27B0;
+}
+
+.footer
+{
+  padding-top: 30px;
+  padding-bottom: 10px;
+  background-color: #fff;
+  text-align: left;
+}
+.footer li
+{
+  padding-top: 7px;
+}
+
+@media only screen and (min-width: 768px)
+{
+  .social-icon i
+  {
+    padding-right: 5%;
+    font-size: 7em;
+  }
+  .two-box
+  {
+    margin-left: 10%;
+    margin-right: 10%;
+  }
+  .two-box h2
+  {
+    font-size: 6em;
+  }
+  .two-box span
+  {
+    font-size: 2.5em;
+  }
+  #hide-this
+  {
+    display: none;
+  }
+  
+  .social-icon
+  {
+    font-size: 1em;
+  }
+
+  .quote
+  {
+    line-height: 7em;
+  }
+  .quote .quote-big-word
+  {
+    font-size: 8em;
+  }
+  .quote .diff-color
+  {
+    font-size: 7em;
+  }
+  .quote .quote-small-word
+  {
+    font-size: 4em;
+  }
+  #break-line
+  {
+    display: none;
+  }
+
+  .footer .box1
+  {
+    margin-left: 10%;
+  }
+  .footer .box2
+  {
+    border-left: 2px solid #000;
+    margin-left: 20%;
+  }
+}

@@ -1,0 +1,141 @@
+.navbar-menu, .dropdown
+{
+  font-family: 'Orbitron', sans-serif;
+}
+.navbar img
+{
+    float: left;
+    clear: left;
+    width: auto;
+    height: 4em;
+    padding-top: 10px;
+    padding-right: 10px;
+}
+#bodyAll
+{
+  min-height:100%;
+  position:relative;
+}
+#bodyData
+{
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-top: 10px;
+}
+.some-gap
+{
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+.my-foot
+{
+    background-color: #76FF03;
+    color: #fff;
+    padding-top: 10px;
+}
+.my-foot a
+{
+    color: #CCFF90;
+    padding: 5px;
+}
+.my-foot a:hover
+{
+    color: #fff;
+}
+/* ilin START*/
+.link
+{
+    outline: none;
+    text-decoration: none;
+    position: relative;
+    font-size: 2.25em;
+    line-height: 1;
+    color: #E3F2FD !important;
+    display: inline-block;
+}
+@media(max-width: 414px)
+{
+    .link
+    {
+        font-size: 150%;
+    }
+    .navbar img
+    {
+        float: right;
+        clear: right;
+        width: auto;
+        height: 4em;
+    }
+
+}
+@media(max-width: 320px)
+{
+    .link
+    {
+        font-size: 130%;
+    }
+    .navbar img
+    {
+        float: right;
+        clear: right;
+        width: auto;
+        height: 4em;
+    }
+}
+.link--ilin
+{
+    font-weight: 900;
+    text-transform: uppercase;
+    line-height: 0.8;
+    overflow: hidden;
+    color: #E3F2FD !important;
+    font-family: 'Coiny', cursive;
+}
+.link--ilin span
+{
+    position: relative;
+    display: inline-block;
+    -webkit-transition: color 0.5s;
+    transition: color 0.5s;
+}
+.link--ilin:hover span:first-of-type
+{
+    color: #fff;
+}
+
+.link--ilin:hover span:last-of-type
+{
+    color: #1e1a1b;
+}
+
+.link--ilin span::before
+{
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background: #fff;
+    line-height: 0.8;
+    -webkit-transition: -webkit-transform 0.5s;
+    transition: transform 0.5s;
+}
+
+.link--ilin span:last-of-type::before
+{
+    background: #1e1a1b;
+}
+
+.link--ilin:hover span:last-of-type::before,
+.link--ilin span:first-of-type::before
+{
+    -webkit-transform: translate3d(0,-150%,0);
+    transform: translate3d(0,-150%,0);
+}
+
+.link--ilin:hover span:first-of-type::before,
+.link--ilin span:last-of-type::before
+{
+    -webkit-transform: translate3d(0,150%,0);
+    transform: translate3d(0,150%,0);
+}
+/* ilin END*/
