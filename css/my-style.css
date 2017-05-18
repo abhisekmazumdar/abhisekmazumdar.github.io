@@ -131,6 +131,25 @@ body
 {
   font-size: 1.5em;
 }
+.my-box .my-works-body .my-button
+{
+  background-color: white;
+  color: black;
+  border: 5px solid #fff000;
+  padding: 16px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  -webkit-transition-duration: 0.4s; /* Safari */
+  transition-duration: 0.4s;
+  cursor: pointer;
+}
+.my-box .my-works-body .my-button:hover
+{
+  background-color: #fff000;
+}
 
 .footer
 {
@@ -193,6 +212,11 @@ body
   #break-line
   {
     display: none;
+  }
+
+  .some-space-for-pc-mode
+  {
+    padding: 2em;
   }
 
   .footer .box1
