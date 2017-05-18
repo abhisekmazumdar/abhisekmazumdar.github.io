@@ -72,60 +72,64 @@ body
   color: #fff000;
 }
 
-.two-box
+.my-box
 {
   color: #fff;
   text-align: left;
 }
-.two-box h2
+.my-box h2
 {
   font-size: 5em;
   color: #fff;
 }
-.two-box h2:hover
+.my-box h2:hover
 {
   color: #fff000;
 }
-.two-box span
+.my-box span
 {
   font-family: 'Baloo Bhaina', cursive;
   font-size: 2em;
   color: #757575;
 }
-.two-box span:hover
+.my-box span:hover
 {
   color: #ECEFF1;
 }
-.two-box .about-me-body
+.my-box .about-me-body
 {
   font-size: 1.5em;
 }
-.two-box .about-me-body .me-image
+.my-box .about-me-body .me-image
 {
   float: left;
   width: 50%;
   margin-right: 5%; /* space between the image and the text */
 }
 
-.two-box .my-skills-body .p1
+.my-box .my-skills-body .p1
 {
   background-color: #f44336;
 }
-.two-box .my-skills-body .p2
+.my-box .my-skills-body .p2
 {
   background-color: #2196F3;
 }
-.two-box .my-skills-body .p3
+.my-box .my-skills-body .p3
 {
   background-color: #4CAF50;
 }
-.two-box .my-skills-body .p4
+.my-box .my-skills-body .p4
 {
   background-color: #FDD835;
 }
-.two-box .my-skills-body .p5
+.my-box .my-skills-body .p5
 {
   background-color: #9C27B0;
+}
+.my-box .my-works-body
+{
+  font-size: 1.5em;
 }
 
 .footer
@@ -147,16 +151,16 @@ body
     padding-right: 5%;
     font-size: 7em;
   }
-  .two-box
+  .my-box
   {
     margin-left: 10%;
     margin-right: 10%;
   }
-  .two-box h2
+  .my-box h2
   {
     font-size: 6em;
   }
-  .two-box span
+  .my-box span
   {
     font-size: 2.5em;
   }
