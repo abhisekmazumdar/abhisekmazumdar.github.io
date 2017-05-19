@@ -164,9 +164,14 @@ body
   background-color: #fff;
   text-align: left;
 }
-.footer li
+.footer a
 {
-  padding-top: 7px;
+  padding: 3%;
+  color: #FFD600;
+}
+.footer a:hover
+{
+  color: #fff000;
 }
 
 @media only screen and (min-width: 768px)
@@ -237,5 +242,9 @@ body
   {
     border-left: 2px solid #000;
     margin-left: 20%;
+  }
+  .footer a
+  {
+    padding: 7%;
   }
 }
