@@ -234,6 +234,11 @@ body
     padding: 2em;
   }
 
+  .my-box .my-works-body p
+  {
+    
+  }
+
   .footer .box1
   {
     margin-left: 10%;
