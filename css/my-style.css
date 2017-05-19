@@ -145,7 +145,7 @@ body
   font-size: 16px;
   -webkit-transition-duration: 0.4s; /* Safari */
   transition-duration: 0.4s;
-  cursor: pointer;s
+  cursor: pointer;
   width: 100%;
 }
 .my-box .my-works-body .my-button:hover
