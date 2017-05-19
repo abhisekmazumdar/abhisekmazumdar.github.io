@@ -152,6 +152,10 @@ body
 {
   background-color: #fff000;
 }
+.my-box .some-space-top
+{
+  padding-top: 5%;
+}
 
 .footer
 {
@@ -214,6 +218,10 @@ body
   #break-line
   {
     display: none;
+  }
+  .my-box .some-space-top
+  {
+    padding-top: 0%;
   }
 
   .some-space-for-pc-mode
