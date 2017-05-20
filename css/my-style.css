@@ -58,8 +58,7 @@ body
 
 .social-icon
 {
-  padding-top: 5%;
-  padding-bottom: 5%;
+  padding-bottom: 3%;
   font-size: 5em;
 }
 .social-icon a
@@ -88,7 +87,6 @@ body
 }
 .my-box span
 {
-  font-family: 'Baloo Bhaina', cursive;
   font-size: 2em;
   color: #757575;
 }
@@ -143,7 +141,7 @@ body
   text-decoration: none;
   display: inline-block;
   font-size: 16px;
-  -webkit-transition-duration: 0.4s; /* Safari */
+  -webkit-transition-duration: 0.4s;
   transition-duration: 0.4s;
   cursor: pointer;
   width: 100%;

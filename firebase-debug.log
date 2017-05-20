@@ -1,0 +1,35 @@
+[debug] ----------------------------------------------------------------------
+[debug] Command:      /usr/bin/nodejs /usr/local/bin/firebase serve
+[debug] CLI Version:  3.8.0
+[debug] Platform:     linux
+[debug] Node Version: v4.2.6
+[debug] Time:         Sun May 21 2017 00:39:10 GMT+0530 (IST)
+[debug] ----------------------------------------------------------------------
+[debug] 
+[debug] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] > refreshing access token with scopes: ["email","https://www.googleapis.com/auth/cloud-platform","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","openid"]
+[debug] >>> HTTP REQUEST POST https://www.googleapis.com/oauth2/v3/token { refresh_token: '1/OcBRY5Hz_T7b0EH17aSJsKwGCEVU0IDaq4zARWj1Qb8',
+  client_id: '563584335869-fgrhgmd47bqnekij5i8b5pr03ho849e6.apps.googleusercontent.com',
+  client_secret: 'j9iVZfS8kkCEFUPaAeJV0sAi',
+  grant_type: 'refresh_token',
+  scope: 'email https://www.googleapis.com/auth/cloud-platform https://www.googleapis.com/auth/cloudplatformprojects.readonly https://www.googleapis.com/auth/firebase openid' } 
+ Sun May 21 2017 00:39:11 GMT+0530 (IST)
+[debug] <<< HTTP RESPONSE 200
+[debug] >>> HTTP REQUEST GET https://admin.firebase.com/v1/projects/abhisekmazumdar-7434e  
+ Sun May 21 2017 00:39:12 GMT+0530 (IST)
+[debug] <<< HTTP RESPONSE 200
+[debug] >>> HTTP REQUEST GET https://admin.firebase.com/v1/database/abhisekmazumdar-7434e/tokens  
+ Sun May 21 2017 00:39:17 GMT+0530 (IST)
+[debug] <<< HTTP RESPONSE 200
+[info] 
+[info] === Serving from '/home/abhisek/Dropbox/Personal Project/Firebase'...
+[info] 
+[debug] >>> HTTP REQUEST GET https://cloudresourcemanager.googleapis.com/v1/projects/abhisekmazumdar-7434e  
+ Sun May 21 2017 00:39:19 GMT+0530 (IST)
+[debug] <<< HTTP RESPONSE 200
+[debug] >>> HTTP REQUEST GET https://mobilesdk-pa.googleapis.com/v1/projects/852814626934/clients/_:getWebAppConfig  
+ Sun May 21 2017 00:39:22 GMT+0530 (IST)
+[debug] <<< HTTP RESPONSE 200
+[info] i  hosting: Serving hosting files from: abhisekmazumdar
+[info] ✔  hosting: Local server: http://localhost:5000
+
