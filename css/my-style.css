@@ -1,10 +1,5 @@
-/*
-    Created on : 14 Jan, 2017, 2:02:54 AM
-    Author     : abhisek
-*/
-
+/* Created on : 14 Jan, 2017, 2:02:54 AM Author     : abhisek */
 @import url('https://fonts.googleapis.com/css?family=Baloo+Bhaina|Raleway|Press+Start+2P');
-
 body
 {
   background-image: url("../img/bg-home.jpg");
@@ -13,123 +8,97 @@ body
 .my-font-1
 {
   font-family: 'Baloo Bhaina', cursive;
-}
-.my-font-2
+}.my-font-2
 {
   font-family: 'Raleway', sans-serif;
-}
-.my-font-3
+}.my-font-3
 {
   font-family: 'Press Start 2P', cursive;
 }
-
 .quote
 {
   color: #fff;
   line-height: 3em;
-}
-.quote .quote-big-word
+}.quote .quote-big-word
 {
   font-size: 4em;
-}
-.quote .quote-big-word:hover
+}.quote .quote-big-word:hover
 {
   color: #fff000;
-}
-.quote .diff-color
+}.quote .diff-color
 {
   color: #999999;
   font-size: 3em;
-}
-.quote .diff-color:hover
+}.quote .diff-color:hover
 {
   color: #ECEFF1;
-}
-.quote .quote-small-word
+}.quote .quote-small-word
 {
   font-size: 2em;
   color: #999999;
-}
-.quote .quote-small-word:hover
+}.quote .quote-small-word:hover
 {
   color: #ECEFF1;
 }
-
-
 .social-icon
 {
   padding-bottom: 3%;
   font-size: 5em;
-}
-.social-icon a
+}.social-icon a
 {
   color: #757575;
   text-decoration: none;
-}
-.social-icon i:hover
+}.social-icon i:hover
 {
   color: #fff000;
 }
-
 .my-box
 {
   color: #fff;
   text-align: left;
-}
-.my-box h2
+}.my-box h2
 {
   font-size: 5em;
   color: #fff;
-}
-.my-box h2:hover
+}.my-box h2:hover
 {
   color: #fff000;
-}
-.my-box span
+}.my-box span
 {
   font-size: 2em;
   color: #757575;
-}
-.my-box span:hover
+}.my-box span:hover
 {
   color: #ECEFF1;
-}
-.my-box .about-me-body
+}.my-box .about-me-body
 {
   font-size: 1.5em;
-}
-.my-box .about-me-body .me-image
+}.my-box .about-me-body .me-image
 {
   float: left;
   width: 50%;
   margin-right: 5%; /* space between the image and the text */
 }
-
 .my-box .my-skills-body .p1
 {
   background-color: #f44336;
-}
-.my-box .my-skills-body .p2
+}.my-box .my-skills-body .p2
 {
   background-color: #2196F3;
-}
-.my-box .my-skills-body .p3
+}.my-box .my-skills-body .p3
 {
   background-color: #4CAF50;
-}
-.my-box .my-skills-body .p4
+}.my-box .my-skills-body .p4
 {
   background-color: #FDD835;
-}
-.my-box .my-skills-body .p5
+}.my-box .my-skills-body .p5
 {
   background-color: #9C27B0;
 }
 .my-box .my-works-body
 {
   font-size: 1.5em;
-}
-.my-box .my-works-body .my-button
+}.my-box .my-works-body .my-button
 {
   font-weight: bold;
   background-color: white;
@@ -145,33 +114,27 @@ body
   transition-duration: 0.4s;
   cursor: pointer;
   width: 100%;
-}
-.my-box .my-works-body .my-button:hover
+}.my-box .my-works-body .my-button:hover
 {
   background-color: #fff000;
-}
-.my-box .some-space-top
+}.my-box .some-space-top
 {
   padding-top: 5%;
 }
-
 .footer
 {
   padding-top: 30px;
   padding-bottom: 10px;
   background-color: #fff;
   text-align: left;
-}
-.footer a
+}.footer a
 {
   padding: 3%;
   color: #FFD600;
-}
-.footer a:hover
+}.footer a:hover
 {
   color: #fff000;
 }
-
 @media only screen and (min-width: 768px)
 {
   .social-icon i
@@ -183,12 +146,10 @@ body
   {
     margin-left: 10%;
     margin-right: 10%;
-  }
-  .my-box h2
+  }.my-box h2
   {
     font-size: 6em;
-  }
-  .my-box span
+  }.my-box span
   {
     font-size: 2.5em;
   }
@@ -196,25 +157,20 @@ body
   {
     display: none;
   }
-  
   .social-icon
   {
     font-size: 1em;
   }
-
   .quote
   {
     line-height: 7em;
-  }
-  .quote .quote-big-word
+  }.quote .quote-big-word
   {
     font-size: 8em;
-  }
-  .quote .diff-color
+  }.quote .diff-color
   {
     font-size: 7em;
-  }
-  .quote .quote-small-word
+  }.quote .quote-small-word
   {
     font-size: 4em;
   }
@@ -226,27 +182,18 @@ body
   {
     padding-top: 0%;
   }
-
   .some-space-for-pc-mode
   {
     padding: 2em;
   }
-
-  .my-box .my-works-body p
-  {
-    
-  }
-
   .footer .box1
   {
     margin-left: 10%;
-  }
-  .footer .box2
+  }.footer .box2
   {
     border-left: 2px solid #000;
     margin-left: 20%;
-  }
-  .footer a
+  }.footer a
   {
     padding: 7%;
   }
