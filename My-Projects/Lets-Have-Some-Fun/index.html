@@ -5,7 +5,7 @@
 
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
-    <meta name="theme-color" content="#ffff00" />
+    <meta name="theme-color" content="#2196F3" />
 
     <meta name="description" content="It's a Simple App to have Fun in Social Media Like Whatsapp and Facebook"/>
 
@@ -15,7 +15,7 @@
     <meta property="og:url" content="http://www.abhisekmazumdar.com/My-Projects/Lets-Have-Some-Fun/" />
     <meta property="og:type" content="website" />
     <meta property="og:title" content="Who I'm For You" />
-    <meta property="og:description" content="Let's Find Out What He/She Thinks About You, It's Just For Fun Thing."/>
+    <meta property="og:description" content="Give A dare to your Friend, It's Just For Fun Thing."/>
     <meta property="og:image" content="http://abhisekmazumdar.com/img/abhisek-mazumdar-circle.gif" />
     <meta property="og:image:type" content="image/gif" />
     <meta property="og:image:width" content="300" />
@@ -171,7 +171,7 @@
 <div class="my-div my-font">
 
 	<div class="transbox">
-		<p>Let's Find Out What He/She Thinks About You, It's Just For Fun Thing</p>
+		<p>Your Friend has given you a dare Enter Your name and Find Out</p>
 	</div>
 
 	<div class="mat-div">
@@ -179,15 +179,10 @@
     	<input type="text" class="mat-input" id="your-name">
     </div>
 
-	<div class="mat-div">
-    	<label for="Your-Friend-Name" class="mat-label">Your Friend's Name</label>
-    	<input type="text" class="mat-input" id="friend-name">
-    </div>
-
     <button>Let's Find Out</button>
 
     <div class="transbox" style="display: none;">
-		<p>Result: </p>
+		<p id="result" class="text-capitalize"></p>
 	</div>
 
 </div>
@@ -199,6 +194,7 @@
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
 
 <script type="text/javascript">
+
 	$(".mat-input").focus(function(){
 	  $(this).parent().addClass("is-active is-completed");
 	});
@@ -208,12 +204,31 @@
 	    $(this).parent().removeClass("is-completed");
 	  $(this).parent().removeClass("is-active");
 	})
+	
+	var ln = 0;
+	var name = "";
+	var dare = ["Say Me Hi when you see me next","Put My Pic As Ur DP for 24hr","Say all the bad things abt me","Send Me A Voice Note saying any thing","Put My Pic In Status & write what u like abt me most","Send Me A Screenshot Of Ur whatsApp Chats","Send Me Your cutest Pic","Call Me and say Ur Crush Name","Tell Me Your Crush Name","Meet Me today","Leave Me Alone","Popose Me"];
+	ln = dare.length;
 
 	$(document).ready(function(){
 	    $("button").click(function(){
-	        $(".transbox").slideDown("slow");
+	        if ($('#your-name').val() == ""){
+	            alert('Enter Your Names');
+	        }
+	        else
+	        {
+	        	name = document.getElementById("your-name").value;
+	        	document.getElementById("result").innerHTML = name+" Your Dare Is to "+dare[randomNumber(0,ln)];
+	        	$(".transbox").slideDown("slow");
+	        }
 	    });
 	});
+
+	function randomNumber(min,max)
+	{
+		return Math.floor(Math.random()*(max-min+1)+min);
+	}
+	console.log(randomNumber(0,ln));
 </script>
 
 </body>
