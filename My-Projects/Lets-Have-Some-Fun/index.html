@@ -81,7 +81,7 @@
 	{
 		color: #fff;
 		text-align: center;
-		margin-top: 20%;
+		margin-top: 10%;
 	}
 
 	.mat-label {
@@ -186,6 +186,10 @@
 
     <button>Let's Find Out</button>
 
+    <div class="transbox" style="display: none;">
+		<p>Result: </p>
+	</div>
+
 </div>
 
 <!-- jquery -->
@@ -204,6 +208,12 @@
 	    $(this).parent().removeClass("is-completed");
 	  $(this).parent().removeClass("is-active");
 	})
+
+	$(document).ready(function(){
+	    $("button").click(function(){
+	        $(".transbox").slideDown("slow");
+	    });
+	});
 </script>
 
 </body>
