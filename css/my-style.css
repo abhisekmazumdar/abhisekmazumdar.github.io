@@ -1,5 +1,5 @@
 /* Created on : 14 Jan, 2017, 2:02:54 AM Author     : abhisek */
-@import url('https://fonts.googleapis.com/css?family=Abril+Fatface|Yanone+Kaffeesatz|Press+Start+2P');
+@import url('https://fonts.googleapis.com/css?family=Droid+Serif|Mukta+Mahee|Press+Start+2P');
 body
 {
   background-image: url("../img/bg-home.jpg");
@@ -7,10 +7,10 @@ body
 }
 .my-font-1
 {
-  font-family: 'Abril Fatface', cursive;
+  font-family: 'Mukta Mahee', sans-serif;
 }.my-font-2
 {
-  font-family: 'Yanone Kaffeesatz', sans-serif;
+  font-family: 'Droid Serif', serif;
 }.my-font-3
 {
   font-family: 'Press Start 2P', cursive;

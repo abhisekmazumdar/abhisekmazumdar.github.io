@@ -20,7 +20,7 @@
         <!-- Facebook Meta Data -->
         <meta property="og:url" content="http://www.abhisekmazumdar.com/" />
         <meta property="og:type" content="website" />
-        <meta property="og:title" content="Abhisek Mazumdar - Simplicity Is The Ultimate Sophistication" />
+        <meta property="og:title" content="Abhisek Mazumdar - Personal Website" />
         <meta property="og:description" content="Abhisek Mazumdar's Personal Website. I'm here to make my Identity in this Big World Wide Web. You can know every thing about me. It's the Portfolio of Abhisek Mazumdar"/>
         <meta property="og:image" content="http://abhisekmazumdar.com/img/abhisek-mazumdar-circle.gif" />
         <meta property="og:image:type" content="image/gif" />
@@ -29,7 +29,7 @@
         <meta property="fb:app_id" content="1818321481787174">
         <meta property="og:site_name" content="Abhisek Mazumdar Personal Website"/>
 
-        <title>Abhisek Mazumdar - Simplicity Is The Ultimate Sophistication</title>
+        <title>Abhisek Mazumdar - Personal Website</title>
 
         <link rel="icon" sizes="192x192" href="img/abhisek-mazumdar-circle.gif">
 
@@ -93,10 +93,16 @@
 
             <div style="padding-top: 5%;" id="hide-this"></div>
 
-            <div class="quote text-capitalize my-font-1">
-                <span class="quote-big-word">Hi <br id="break-line"></span>
-                <!-- <span class="quote-small-word"> There</span> --> 
-                <span class="quote-big-word diff-color"> How Are You ?</span>
+            <div id="typed-strings">
+    			<p>Hi, How are you ?</p>
+    			<p>Nice to have you here</p>
+			</div>
+
+            <div class="quote my-font-1" style="height: 100px;">
+            	<span id="typed" class="quote-big-word"></span>
+                <!-- <span class="quote-big-word">Hi <br id="break-line"></span>
+                <span class="quote-small-word"> There</span> 
+                <span class="quote-big-word diff-color"> How Are You ?</span> -->
             </div>
 
             <div style="padding-top: 5%;" id="hide-this"></div>
@@ -257,9 +263,17 @@
         
         <!-- jquery -->
         <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
-
-        
         <!-- Bootstrap Js -->
         <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+        <!-- Typed JS -->
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/typed.js/2.0.5/typed.min.js"></script>
+        <script>
+			var typed = new Typed('#typed', {
+				stringsElement: '#typed-strings',
+				typeSpeed: 60,
+				loop: true,
+			});
+		</script>
+
     </body>
 </html>
