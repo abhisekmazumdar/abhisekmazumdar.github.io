@@ -41,7 +41,10 @@
 
         <!-- Hover CSS -->
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/hover.css/2.1.1/css/hover-min.css" />
-        
+
+        <!-- Smooth Scrolling -->
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/smooth-scroll/12.1.4/js/smooth-scroll.min.js"></script>
+
         <!-- Local CSS -->
         <link rel="stylesheet" type="text/css" href="css/my-style.css">
         
@@ -71,24 +74,15 @@
         
         <div class="container-fluid">
 
-            <div class="social-icon row">
-                
-                <a href="http://bit.ly/fbAbhisek" target="_blank">
-                    <i class="fa fa-facebook-official" aria-hidden="true"></i>
-                </a>
-                
-                <a href="http://bit.ly/twitAbhisek" target="_blank">
-                    <i class="fa fa-twitter" aria-hidden="true"></i>
-                </a>
-                
-                <a href="http://bit.ly/instaAbhisek" target="_blank">
-                    <i class="fa fa-instagram" aria-hidden="true"></i>
-                </a>
-                
-                <a href="http://bit.ly/gitAbhisek">
-                    <i class="fa fa-github" aria-hidden="true"></i>
-                </a>
-
+            <div class="nav-website row">
+            	
+            	<a href="#who"><button type="button" class="btn btn-default btn-circle btn-xl"><i class="fa fa-user-circle" aria-hidden="true"></i></button></a>
+				
+				<a href="#skills"><button type="button" class="btn btn-primary btn-circle btn-xl"><i class="fa fa-code"></i></button></a>
+				
+				<a href="#work"><button type="button" class="btn btn-success btn-circle btn-xl"><i class="fa fa-briefcase"></i></button></a>
+				
+				<a href="#connect"><button type="button" class="btn btn-danger btn-circle btn-xl"><i class="fa fa-share-square"></i></button></a>
             </div>
 
             <div style="padding-top: 5%;" id="hide-this"></div>
@@ -110,7 +104,7 @@
             <div class="row my-box my-font-2">
                 
                 <div class="col-md-6">
-                    <h2 class="text-uppercase my-font-1">Who I'm</h2>
+                    <h2 class="text-uppercase my-font-1" id="who">Who I'm</h2>
                     <span class="text-uppercase my-font-1">Few Words About Me.</span>
 
                     <div style="padding: 5px;"></div>
@@ -133,7 +127,7 @@
                 <div style="padding-top: 5%;" id="hide-this"></div>
 
                 <div class="col-md-6">
-                    <h2 class="text-uppercase my-font-1">My Skills</h2>
+                    <h2 class="text-uppercase my-font-1" id="skills">My Skills</h2>
                     <span class="text-uppercase my-font-1">What I'm Best At.</span>
 
                     <div style="padding: 5px;"></div>
@@ -192,7 +186,7 @@
 
         <div class="container-fluid">
         	<div class="my-box">
-                <h2 class="text-uppercase my-font-1">My Works</h2>
+                <h2 class="text-uppercase my-font-1" id="work">My Works</h2>
                 <span class="text-uppercase my-font-1">Personal Projects &amp; Academics Projects.</span>
 
                 <div style="padding: 5px;"></div>
@@ -232,6 +226,32 @@
             </div>
         </div>
 
+        <div class="some-space-for-pc-mode"></div>
+
+        <div class="container">
+        	
+        	<h2 class="text-uppercase my-font-1" style="font-size: 4em; color: #fff;" id="connect">Connect</h2>
+        	<div class="social-icon row">
+                
+		        <a href="http://bit.ly/fbAbhisek" target="_blank">
+		            <i class="fa fa-facebook-official" aria-hidden="true"></i>
+		        </a>
+		        
+		        <a href="http://bit.ly/twitAbhisek" target="_blank">
+		            <i class="fa fa-twitter" aria-hidden="true"></i>
+		        </a>
+		        
+		        <a href="http://bit.ly/instaAbhisek" target="_blank">
+		            <i class="fa fa-instagram" aria-hidden="true"></i>
+		        </a>
+		        
+		        <a href="http://bit.ly/gitAbhisek">
+		            <i class="fa fa-github" aria-hidden="true"></i>
+		        </a>
+    		</div>
+
+        </div>
+
         <div style="padding: 3%"></div>
 
         <!-- This is the Footer Part -->
@@ -260,6 +280,7 @@
                     <br><a href="mycv/" target="_blank">CV Here</a>
                 </div>
             </div>
+
         </div>
         
         <!-- jquery -->
@@ -274,6 +295,10 @@
 				typeSpeed: 60,
 				loop: true,
 			});
+		</script>
+
+		<script>
+			var scroll = new SmoothScroll('a[href*="#"]');
 		</script>
 
     </body>
