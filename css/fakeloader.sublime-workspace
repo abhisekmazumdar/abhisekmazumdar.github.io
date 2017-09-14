@@ -1,0 +1,338 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"pa",
+				"padding"
+			],
+			[
+				"A",
+				"AboutPage\talias"
+			],
+			[
+				"con",
+				"console\tvar"
+			],
+			[
+				"as",
+				"async\tkeyword"
+			],
+			[
+				"QR",
+				"QRScannerStatus\talias"
+			],
+			[
+				"i",
+				"i\tTag"
+			],
+			[
+				"pad",
+				"padding-bottom"
+			],
+			[
+				"my-b",
+				"my-box"
+			],
+			[
+				"di",
+				"div\tTag"
+			],
+			[
+				"padd",
+				"padding"
+			],
+			[
+				"r",
+				"rgba()"
+			],
+			[
+				"frie",
+				"Friend"
+			],
+			[
+				"yo",
+				"your-name"
+			],
+			[
+				"get",
+				"getElementById"
+			],
+			[
+				"re",
+				"required\tAttr"
+			],
+			[
+				"fo",
+				"font-size"
+			],
+			[
+				"bac",
+				"background-color"
+			],
+			[
+				"he",
+				"height"
+			],
+			[
+				"mar",
+				"margin-top"
+			],
+			[
+				"onc",
+				"onclick\tAttr"
+			],
+			[
+				"tex",
+				"text-align"
+			],
+			[
+				"co",
+				"color"
+			],
+			[
+				"in",
+				"input\tTag"
+			],
+			[
+				"wor",
+				"word-wrap"
+			],
+			[
+				"fff",
+				"fff000"
+			],
+			[
+				"fa-",
+				"fa-3x"
+			],
+			[
+				"so",
+				"some-space-for-pc-mode"
+			],
+			[
+				"wi",
+				"width"
+			],
+			[
+				"font",
+				"font-weight"
+			],
+			[
+				"bor",
+				"border-radius"
+			],
+			[
+				"fon",
+				"my-font-2"
+			],
+			[
+				"btn",
+				"btn-lg"
+			],
+			[
+				"font-s",
+				"font-size"
+			]
+		]
+	},
+	"buffers":
+	[
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 72.0,
+		"last_filter": "install package",
+		"selected_items":
+		[
+			[
+				"install package",
+				"Package Control: Install Package"
+			]
+		],
+		"width": 449.0
+	},
+	"console":
+	{
+		"height": 0.0,
+		"history":
+		[
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/home/abhisek/Dropbox/Personal Project/Firebase/abhisekmazumdar/index.html",
+		"/home/abhisek/Documents/demoApp/src/pages/home/home.ts",
+		"/home/abhisek/Documents/demoApp/src/pages/home/home.html",
+		"/home/abhisek/Documents/demoApp/src/pages/contact/contact.html",
+		"/home/abhisek/Documents/demoApp/src/pages/about/about.html",
+		"/home/abhisek/Documents/demoApp/src/app/app.module.ts",
+		"/home/abhisek/Documents/demoApp/src/pages/tabs/tabs.ts",
+		"/home/abhisek/Documents/demoApp/www/build/sw-toolbox.js",
+		"/home/abhisek/Documents/demoApp/src/index.html",
+		"/home/abhisek/Documents/demoApp/src/pages/contact/contact.ts",
+		"/home/abhisek/Documents/demoApp/tsconfig.json",
+		"/home/abhisek/Documents/demoApp/src/pages/tabs/tabs.html",
+		"/home/abhisek/Documents/demoApp/src/pages/aboutme/aboutme.html",
+		"/home/abhisek/Documents/demoApp/src/pages/aboutme/aboutme.scss",
+		"/home/abhisek/Documents/demoApp/src/pages/aboutme/aboutme.ts",
+		"/home/abhisek/Documents/demoApp/src/app/app.html",
+		"/home/abhisek/Documents/myProject/src/app/app.html",
+		"/home/abhisek/Documents/myProject/src/pages/list/list.ts",
+		"/home/abhisek/Documents/myProject/src/app/app.module.ts",
+		"/usr/share/themes/Linux Mint/cinnamon/cinnamon.css",
+		"/home/abhisek/myApp/myApp/src/index.html",
+		"/root/.bashrc",
+		"/home/abhisek/reactJS/package.json",
+		"/home/abhisek/reactJS/.babelrc",
+		"/home/abhisek/Dropbox/Personal Project/Firebase/abhisekmazumdar/My-Projects/css/my-css.css",
+		"/home/abhisek/Dropbox/Personal Project/Firebase/abhisekmazumdar/My-Projects/index.html",
+		"/home/abhisek/Dropbox/Personal Project/Firebase/abhisekmazumdar/css/my-style.css",
+		"/home/abhisek/Dropbox/Personal Project/Firebase/abhisekmazumdar/css/fakeloader.css",
+		"/home/abhisek/.themes/Vivaldi/cinnamon/cinnamon.css",
+		"/home/abhisek/Documents/FFCS/FFCSonTheGo/data/all_data.json",
+		"/home/abhisek/Documents/FFCS/FFCSonTheGo/css/style.css",
+		"/home/abhisek/Documents/FFCS/FFCSonTheGo/index.html",
+		"/home/abhisek/Dropbox/Personal Project/Firebase/abhisekmazumdar/My-Projects/Lets-Have-Some-Fun/index.html",
+		"/home/abhisek/Dropbox/Personal Project/WhatsppGame/ThinkAboutMe/index.html",
+		"/home/abhisek/Dropbox/Personal Project/Firebase/onepage-scroll/Demo/demo.html",
+		"/home/abhisek/Dropbox/Personal Project/Firebase/abhisekmazumdar/My-Projects/Make-Your-Lazy-Android-SmartPhone-Blazing-FAST/index.html",
+		"/home/abhisek/Dropbox/Personal Project/Firebase/abhisekmazumdar/My-Projects/Make-Your-Lazy-Android-SmartPhone-Blazing-FAST/css/myStyle.css",
+		"/home/abhisek/Dropbox/Personal Project/Work/Yuwavista/index.html"
+	],
+	"find":
+	{
+		"height": 23.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"sheets":
+			[
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 23.0
+	},
+	"input":
+	{
+		"height": 31.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"pinned_build_system": "",
+	"project": "fakeloader.sublime-project",
+	"replace":
+	{
+		"height": 42.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 500.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 380.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 213.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}
