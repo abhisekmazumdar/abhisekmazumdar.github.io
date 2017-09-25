@@ -2,15 +2,61 @@
 <html lang="en">
 <head>
 	<!-- Required meta tags -->
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+  <meta http-equiv='cache-control' content='no-cache'>
+  <meta http-equiv='expires' content='0'>
+  <meta http-equiv='pragma' content='no-cache'>
+
+  <meta name="theme-color" content="#007bff" />
+
+  <meta name="description" content="Check Bitcoin Price(INR) in realtime."/>
+  <meta name="author" content="Abhisek Mazumdar" />
+
+  <!-- Facebook Meta Data -->
+  <meta property="og:url" content="http://www.abhisekmazumdar.com/My-Projects/BitcoinExchange/" />
+  <meta property="og:type" content="website" />
+  <meta property="og:title" content="Bitcoin Exchange, by Abhisek Mazumdar" />
+  <meta property="og:description" content="Check Bitcoin Price(INR) in realtime."/>
+  <meta property="og:image" content="http://abhisekmazumdar.com/My-Projects/BitcoinExchange/img/bitcoin.png" />
+  <meta property="og:image:type" content="image/png" />
+  <meta property="og:image:width" content="300" />
+  <meta property="og:image:height" content="300" />
+  <meta property="fb:app_id" content="1818321481787174">
+  <meta property="og:site_name" content="Abhisek Mazumdar Personal Website"/>
 
 	<title>Bitcoin Exchange</title>
+
+  <link rel="icon" sizes="192x192" href="img/bitcoin.png">
 	
+  <!--Awesome Font-->
+  <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+
 	<!-- Bootstrap 4 -->
 	<link href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-/Y6pD6FV/Vv2HJnA6t+vslU6fwYXjCFtcEpHbNJ0lyAFsXTsjBbfaDjzALeQsN6M" crossorigin="anonymous">
 </head>
 <body>
+
+  <script>
+    //Facebook SDK
+              window.fbAsyncInit = function() {
+                FB.init({
+                  appId      : '1818321481787174',
+                  xfbml      : true,
+                  version    : 'v2.8'
+                });
+                FB.AppEvents.logPageView();
+              };
+
+              (function(d, s, id){
+                 var js, fjs = d.getElementsByTagName(s)[0];
+                 if (d.getElementById(id)) {return;}
+                 js = d.createElement(s); js.id = id;
+                 js.src = "//connect.facebook.net/en_US/sdk.js";
+                 fjs.parentNode.insertBefore(js, fjs);
+               }(document, 'script', 'facebook-jssdk'));
+  </script>
 
 	<nav class="navbar navbar-expand-lg navbar-dark bg-primary">
   		<a class="navbar-brand" href="#">
@@ -33,9 +79,65 @@
   		</div>
 	</nav>
 
+  <nav class="breadcrumb">
+      <a class="breadcrumb-item" href="../../">Home</a>
+      <a class="breadcrumb-item" href="../">My Projects</a>
+      <span class="breadcrumb-item active">Bitcoin Exchange</span>
+  </nav>
+
+
+  <div class="container">
+    <div class="row">
+      <div class="col-sm-4" style="padding: 5%">
+        <button type="button" class="btn btn-primary btn-lg" data-toggle="collapse" data-target="#priceSec" aria-expanded="false" aria-controls="priceSec" style="width: 100%; height: 100%;">printBitcoinPrice()</button>
+      </div>
+
+      <div class="collapse" id="priceSec">
+        <div class="card text-white bg-success">
+          <div class="card-header">Live Price</div>
+          <div class="card-body">
+            <h4 class="card-title">Bitcoin in INR</h4>
+            
+            <div class="input-group input-group-lg" style="padding: 5% 0 5% 0">
+                <span class="input-group-addon" id="sizing-addon1">Ƀ</span>
+                <input type="text" class="form-control" placeholder="0.016" aria-label="bitcoinPrice" aria-describedby="sizing-addon1">
+            </div>
+
+          </div>
+        </div>
+      </div>
+
+      <div class="col-sm-4" style="padding: 5%">
+          <button type="button" class="btn btn-primary btn-lg" data-toggle="collapse" data-target="#covertPart" aria-expanded="false" aria-controls="covertPart" style="width: 100%; height: 100%;">converter()</button>
+      </div>
+
+      <div class="collapse" id="covertPart">
+        <div class="card text-white bg-danger">
+          <div class="card-header">Covert</div>
+          <div class="card-body">
+            <h4 class="card-title">Bitcoin to INR</h4>
+              
+              <div class="input-group input-group-lg" style="padding: 5% 0 5% 0">
+                <span class="input-group-addon" id="sizing-addon1">₹</span>
+                <input type="text" class="form-control" placeholder="5000" aria-label="amount" aria-describedby="sizing-addon1">
+              </div>
+
+              <div class="input-group input-group-lg" style="padding: 5% 0 5% 0">
+                <span class="input-group-addon" id="sizing-addon1">Ƀ</span>
+                <input type="text" class="form-control" placeholder="0.016" aria-label="bitcoinAmount" aria-describedby="sizing-addon1">
+              </div>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </div>
+
 <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.11.0/umd/popper.min.js" integrity="sha384-b/U6ypiBEHpOf/4+1nzFpr53nxSS+GLCkfwBdFNTxtclqqenISfwAzpKaMNFNmj4" crossorigin="anonymous"></script>
 <!-- Bootstrap 4 -->
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/js/bootstrap.min.js" integrity="sha384-h0AbiXch4ZDo7tp9hKZ4TsHbi047NrKGLO3SEJAg45jXxnGIfYzk4Si90RDIqNm1" crossorigin="anonymous"></script>
+<!-- AngularJS -->
+<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.4/angular.min.js"></script>
 </body>
 </html>
