@@ -17,7 +17,7 @@ body
 }
 .nav-website
 {
-  padding-bottom: 10%;
+  padding-bottom: 5%;
 }
 .btn-circle {
   width: 30px;
@@ -211,6 +211,10 @@ body
   {
     padding: 2em;
   }
+  .footer
+  {
+    padding-bottom: 2%;
+  }
   .footer .box1
   {
     margin-left: 10%;
@@ -239,8 +243,8 @@ body
     line-height: 1.33;
     border-radius: 50px;
   }
-  .nev-website
+  .nav-website
   {
-    padding-bottom: 5%;
+    padding-bottom: 3%;
   }
 }
