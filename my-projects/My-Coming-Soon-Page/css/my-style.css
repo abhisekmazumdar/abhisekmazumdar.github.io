@@ -1,0 +1,70 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 22 Jan, 2017, 7:56:41 PM
+    Author     : abhisek
+*/
+
+@import url('https://fonts.googleapis.com/css?family=Kaushan+Script|Righteous');
+/*
+font-family: 'Righteous', cursive;
+font-family: 'Kaushan Script', cursive;
+*/
+
+
+body{
+    background: #AA00FF;
+}
+.make-button-mystyle
+{
+    font-family: 'Righteous', cursive;
+    top: 75%;
+    left: 44%;
+    position: fixed;
+}
+@media only screen and (max-width: 768px)
+{
+    .make-button-mystyle
+    {
+        left: 30%;
+    }
+
+}
+.my-box
+{
+    position: fixed;
+    top: 40%;
+    left: 50%;
+    /* bring your own prefixes */
+    transform: translate(-50%, -50%);
+    border: 5px solid #fff;
+    border-radius: 12px;
+    color: #fff;
+}
+.my-box-p
+{   
+    font-family: 'Kaushan Script', cursive;
+    font-size: 3em;
+    text-align: center;
+}
+
+.msg-by
+{
+    text-align: right;
+    font-family: 'Righteous', cursive;
+    padding-right: 10px;
+    font-size: 1em;
+}
+
+@media only screen and (max-width: 500px) 
+{
+    .my-box-p
+    {padding: 5px;font-size: 2em;}
+    .msg-by
+    {font-size: 0.75em;}
+    .my-box-without-border
+    {left: 50%;}
+}
