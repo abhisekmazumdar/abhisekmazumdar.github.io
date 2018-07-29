@@ -1,0 +1,23 @@
+{
+  "name": "abhisek",
+  "version": "1.0.0",
+  "description": "This is a personal website for Abhisek Mazumdar",
+  "main": "index.html",
+  "dependencies": {
+    "typed.js": "^2.0.8"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/abhisekmazumdar/abhisekmazumdar.git"
+  },
+  "author": "Abhisek Mazumdar",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/abhisekmazumdar/abhisekmazumdar/issues"
+  },
+  "homepage": "https://github.com/abhisekmazumdar/abhisekmazumdar#readme"
+}
