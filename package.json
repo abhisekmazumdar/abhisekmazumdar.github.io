@@ -1,10 +1,10 @@
 {
   "name": "abhisek",
   "version": "1.0.0",
-  "description": "This is a personal website for Abhisek Mazumdar",
+  "description": "Personal website of Abhisek Mazumdar",
   "main": "index.html",
   "dependencies": {
-    "typed.js": "^2.0.8"
+    "typed.js": "^2.0.10"
   },
   "devDependencies": {},
   "scripts": {
